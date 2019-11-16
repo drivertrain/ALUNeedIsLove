@@ -13,6 +13,14 @@ module OrModule(bigMuxIn4, inA, inB);
     or(bigMuxIn4[5], inA[5], inB[5]);
     or(bigMuxIn4[6], inA[6], inB[6]);
     or(bigMuxIn4[7], inA[7], inB[7]);
+    or(bigMuxIn4[8], inA[8], inB[8]);
+    or(bigMuxIn4[9], inA[9], inB[9]);
+    or(bigMuxIn4[10], inA[10], inB[10]);
+    or(bigMuxIn4[11], inA[11], inB[11]);
+    or(bigMuxIn4[12], inA[12], inB[12]);
+    or(bigMuxIn4[13], inA[13], inB[13]);
+    or(bigMuxIn4[14], inA[14], inB[14]);
+    or(bigMuxIn4[15], inA[15], inB[15]);
 
 endmodule // OrModule
 
