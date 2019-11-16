@@ -1,8 +1,8 @@
 module NotModule(bigMuxIn8, inA);
 
-    output [7:0] bigMuxIn8;
+    output [15:0] bigMuxIn8;
 
-    input [7:0] inA; 
+    input [15:0] inA; 
 
     not(bigMuxIn8[0], inA[0]);
     not(bigMuxIn8[1], inA[1]);
@@ -12,6 +12,14 @@ module NotModule(bigMuxIn8, inA);
     not(bigMuxIn8[5], inA[5]);
     not(bigMuxIn8[6], inA[6]);
     not(bigMuxIn8[7], inA[7]);
+    not(bigMuxIn8[8], inA[8]);
+    not(bigMuxIn8[9], inA[9]);
+    not(bigMuxIn8[10], inA[10]);
+    not(bigMuxIn8[11], inA[11]);
+    not(bigMuxIn8[12], inA[12]);
+    not(bigMuxIn8[13], inA[13]);
+    not(bigMuxIn8[14], inA[14]);
+    not(bigMuxIn8[15], inA[15]);
 
 endmodule // NotModule
 
