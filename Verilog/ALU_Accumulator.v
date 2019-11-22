@@ -7,6 +7,9 @@ module DFlipFlop (clk, in, out, clr, pre);
     
     input clk; 
     input [n-1:0] in;
+
+    //input clr;
+    //input pre;
     
     output [n-1:0] out;
     
